@@ -29,9 +29,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-Yd-uXJ">
-                                <rect key="frame" x="175" y="616" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-Yd-uXJ">
+                                <rect key="frame" x="175" y="608.5" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="CUL-aY-zTz"/>
+                                    <constraint firstAttribute="height" constant="64" id="Re6-ur-dGf"/>
+                                </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecoring:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cB2-g1-mds"/>
@@ -45,6 +48,8 @@
                             <constraint firstItem="PN5-Ka-ubn" firstAttribute="top" secondItem="Ro0-N6-qYQ" secondAttribute="bottom" constant="35" id="9Wq-qx-rHR"/>
                             <constraint firstItem="Ro0-N6-qYQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LZR-G0-eZ4"/>
                             <constraint firstItem="Ro0-N6-qYQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cDx-04-GrF"/>
+                            <constraint firstItem="Ylb-Yd-uXJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="elb-7o-WDB"/>
+                            <constraint firstItem="Ylb-Yd-uXJ" firstAttribute="top" secondItem="PN5-Ka-ubn" secondAttribute="bottom" id="iov-61-DZp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B4Q-Th-tGj"/>
