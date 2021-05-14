@@ -132,14 +132,15 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cCj-su-qwk">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" id="cCj-su-qwk">
                                         <rect key="frame" x="0.0" y="580.5" width="414" height="193.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiB-Ly-Mip" userLabel="Stop Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="193.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="64" id="BW0-I0-HEr"/>
-                                                    <constraint firstAttribute="width" constant="64" id="HXH-fU-SZt"/>
+                                                    <constraint firstAttribute="width" constant="414" id="A0K-T2-JYe"/>
+                                                    <constraint firstAttribute="height" constant="193.5" id="uG9-GC-v0A"/>
                                                 </constraints>
                                                 <state key="normal" image="Stop"/>
                                                 <connections>
@@ -148,8 +149,8 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="AiB-Ly-Mip" firstAttribute="centerX" secondItem="cCj-su-qwk" secondAttribute="centerX" id="Uoy-n5-Gv6"/>
-                                            <constraint firstItem="AiB-Ly-Mip" firstAttribute="top" secondItem="cCj-su-qwk" secondAttribute="top" id="f5K-yd-bSq"/>
+                                            <constraint firstItem="AiB-Ly-Mip" firstAttribute="centerX" secondItem="cCj-su-qwk" secondAttribute="centerX" id="2Wf-9g-GXG"/>
+                                            <constraint firstItem="AiB-Ly-Mip" firstAttribute="centerY" secondItem="cCj-su-qwk" secondAttribute="centerY" id="krK-lM-FwB"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
